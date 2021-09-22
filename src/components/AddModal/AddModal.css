@@ -1,0 +1,10 @@
+.addModal {
+  width: 80%;
+  display: flex;
+  margin-top: 2em;
+}
+
+.addModal__button {
+  background-color: #414141 !important;
+  border: none !important;
+}

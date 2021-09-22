@@ -1,0 +1,7 @@
+.editModal__open-button {
+  border: none !important;
+  background-color: inherit !important;
+  color: white;
+  padding: 0px;
+  display: flex;
+}

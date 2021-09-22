@@ -1,0 +1,41 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  min-width: 30rem;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.todo__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.todo__element {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0em;
+  width: 80%;
+  background-color: #414141;
+  color: white;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.todo__element > p {
+  margin: 0px;
+  margin-right: 3em;
+  text-align: left;
+}
+
+.todo__list-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15%;
+}
