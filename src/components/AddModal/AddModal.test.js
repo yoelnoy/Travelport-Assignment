@@ -5,7 +5,7 @@ import AddModal from '../AddModal/AddModal';
 test('componentes are rendered correctly', () => {
   render(<AddModal />, { wrapper: TodoContextProvider });
 
-  const button = screen.getByTestId('addModal-button');
+  const button = screen.getByRole('button');
   const input = screen.getByRole('textbox');
 
   //Checking that input and button render correctly

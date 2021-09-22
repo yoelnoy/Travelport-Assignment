@@ -25,11 +25,7 @@ export default function AddModal() {
         aria-describedby="basic-addon2"
         onChange={(e) => setNewElement(e.target.value)}
       />
-      <Button
-        data-testid="addModal-button"
-        className="addModal__button"
-        onClick={addElement}
-      >
+      <Button className="addModal__button" onClick={addElement}>
         Add
       </Button>
     </div>
