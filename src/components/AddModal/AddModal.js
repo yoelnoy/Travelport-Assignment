@@ -19,12 +19,17 @@ export default function AddModal() {
   return (
     <div className="addModal">
       <FormControl
+        className="addModal__input"
         value={newElement}
         placeholder="Add new element"
         aria-describedby="basic-addon2"
         onChange={(e) => setNewElement(e.target.value)}
       />
-      <Button className="addModal__button" onClick={addElement}>
+      <Button
+        data-testid="addModal-button"
+        className="addModal__button"
+        onClick={addElement}
+      >
         Add
       </Button>
     </div>

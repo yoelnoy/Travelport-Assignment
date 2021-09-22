@@ -5,3 +5,9 @@
   padding: 0px;
   display: flex;
 }
+
+.editModal__open-button:focus {
+  outline: none !important;
+  outline-offset: none !important;
+  box-shadow: none !important;
+}

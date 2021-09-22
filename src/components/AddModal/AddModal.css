@@ -8,3 +8,10 @@
   background-color: #414141 !important;
   border: none !important;
 }
+
+.addModal__input:focus,
+.addModal__button:focus {
+  outline: none !important;
+  outline-offset: none !important;
+  box-shadow: none !important;
+}
