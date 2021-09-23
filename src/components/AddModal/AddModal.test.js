@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import TodoContextProvider from '../../context/TodoContext';
 import AddModal from '../AddModal/AddModal';
 
-test('componentes are rendered correctly', () => {
+test("addModal's componentes are rendered correctly", () => {
   render(<AddModal />, { wrapper: TodoContextProvider });
 
   const button = screen.getByRole('button');
